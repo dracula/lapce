@@ -1,0 +1,7 @@
+name = "dracula"
+display-name = "Dracula"
+description = "A dark theme for Lapce"
+version = "0.1.0"
+author = "d4rkr41n"
+repository = "d4rkr41n/lapce-dracula"
+themes = ["dracula.toml"]
