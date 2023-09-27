@@ -1,7 +1,7 @@
-[theme]
+[color-theme]
 name = "Dracula"
 
-[theme.base]
+[color-theme.base]
 white = "#F8F8F2"
 black = "#21222C"
 grey = "#3E4451"
@@ -14,7 +14,20 @@ purple = "#BD93F9"
 cyan = "#8BE9FD"
 magenta = "#FF79C6"
 
-[theme.syntax]
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+scroll-width = 10
+drop-shadow-width = 0
+preview-editor-width = 0
+hover-font-family = ""
+hover-font-size = 0
+trim-search-results-whitespace = true
+
+[color-theme.syntax]
 attribute = "$yellow"
 builtinType = "$cyan"
 comment = "#6272A4"
@@ -23,7 +36,7 @@ constructor = "$yellow"
 embedded = "$cyan"
 enum = "$yellow"
 enum-member = "$red"
-enumMember = "$red"
+enumMember = "$red" 
 escape = "$cyan"
 field = "$red"
 function = "$blue"
@@ -44,7 +57,7 @@ type = "$yellow"
 typeAlias = "$yellow"
 "variable.other.member" = "$red"
 
-[theme.ui]
+[color-theme.ui]
 "activity.background" = "#282A36"
 "activity.current" = "$black"
 "completion.background" = "#282A36"
@@ -106,17 +119,3 @@ typeAlias = "$yellow"
 "terminal.red" = "$red"
 "terminal.white" = "$white"
 "terminal.yellow" = "$yellow"
-
-[ui]
-font-family = ""
-font-size = 13
-header-height = 35
-status-height = 25
-tab-min-width = 100
-scroll-width = 10
-drop-shadow-width = 0
-preview-editor-width = 0
-hover-font-family = ""
-hover-font-size = 0
-trim-search-results-whitespace = true
-
